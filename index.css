@@ -135,7 +135,7 @@
   padding-left: 24px;
   padding-right: 24px;
   margin-top: 90px;
-  border: 1px solid #DFE1E6;
+  border: 1px solid #dfe1e6;
 }
 
 .portfolio figure img {
@@ -184,7 +184,7 @@
   height: 16px;
   text-decoration: none;
   color: #7a869a;
-  text-align: left ;
+  text-align: left;
   font-size: 13px;
   font-weight: 600;
   margin-top: 12px;
@@ -213,8 +213,6 @@
   line-height: 16px;
 }
 
-
-
 .portfolio p,
 .aboutme p {
   color: #344563;
@@ -229,7 +227,7 @@
 .container1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding: 4px 12px;;
+  padding: 4px 12px;
 }
 
 .title4 {
@@ -249,7 +247,6 @@
   border-radius: 10px;
 }
 
-
 .project-button button {
   width: 124px;
   height: 48px;
@@ -257,7 +254,7 @@
   border-radius: 8px;
   padding: 12px;
   gap: 10px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -270,6 +267,7 @@
   background-color: #6070ff;
   color: white;
 }
+
 .font6 {
   width: 295px;
   color: black;
@@ -286,7 +284,6 @@
   background-color: #fff;
 }
 
-
 .aboutme button {
   display: flex;
   width: 140px;
@@ -300,7 +297,6 @@
   margin-top: 24px;
   margin-left: 24px;
 }
-
 
 .portfolio button a:hover,
 .aboutme button a:hover {
@@ -332,7 +328,7 @@
   height: 48px;
   border: 1px solid #6070ff;
   border-radius: 8px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -347,6 +343,7 @@
   background-color: #7f8cff;
   color: white;
 }
+
 .font8 {
   width: 295px;
   color: #172b4d;
@@ -379,8 +376,7 @@
   margin-top: 114px;
   padding-left: 24px;
   padding-right: 24px;
-  color: #172B4D;
-
+  color: #172b4d;
 }
 
 .aboutme h5 {
@@ -446,26 +442,28 @@
 }
 
 .contact_section {
-  border-top-left-radius: 50px;
+  border-top-left-radius: 60px;
   display: flex;
   justify-content: center;
-  background-color: #6070FF;
-  background-image: url("images/header-shapes mobile.png");
+  background-color: #6070ff;
+  background-image: url("images/contactbgshapes.png");
   background-size: contain;
   background-repeat: no-repeat;
-  margin-top: 90px;
+  margin-top: 190px;
   padding-bottom: 45px;
   position: relative;
 }
-.form-close{
+
+.form-close {
   position: absolute;
   bottom: 8px;
-  background: #0D151E;
-  border: 1px solid #0D151E;
+  background: #0d151e;
+  border: 1px solid #0d151e;
   border-radius: 10px;
   width: 134px;
   height: 5px;
 }
+
 .contact_form {
   width: 90%;
   margin: auto;
@@ -479,6 +477,7 @@
   line-height: 52px;
   align-items: center;
   text-align: center;
+  padding-left: 60px;
   width: 801px;
   height: 56px;
 }
@@ -491,8 +490,9 @@
   font-weight: 400;
   line-height: 28px;
   text-align: center;
-  padding: 15px 0;
-  margin-top: 12px;;
+  margin-top: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 fieldset {
@@ -550,33 +550,32 @@ label {
   line-height: 28px;
 }
 
-.btn-submit{
+.btn-submit {
   width: 142px;
   height: 48px;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 8px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #6070FF;
+  color: #6070ff;
   border: none;
-  outline: 1px solid #6070FF;
+  outline: 1px solid #6070ff;
   cursor: pointer;
-
 }
-.btn-submit:hover{
-  background-color: #6070FF;
-  color: #FFFFFF;
-  border: 1px solid #FFFFFF;
+.btn-submit:hover {
+  background-color: #6070ff;
+  color: #ffffff;
+  border: 1px solid #ffffff;
 }
-.btn-submit:focus{
-  background: #FFFFFF;
-  color: #6070FF;
-  outline: 1px solid #6070FF;
+.btn-submit:focus {
+  background: #ffffff;
+  color: #6070ff;
+  outline: 1px solid #6070ff;
 }
 
 @media all and (max-width: 768px) {
