@@ -43,7 +43,6 @@
   height: 95%;
   width: 100%;
   margin: auto;
-  border: 0.1px solid black;
 }
 
 .section h1 {
@@ -136,7 +135,7 @@
   padding-left: 24px;
   padding-right: 24px;
   margin-top: 90px;
-  border: 1px solid black;
+  border: 1px solid #DFE1E6;
 }
 
 .portfolio figure img {
@@ -214,6 +213,8 @@
   line-height: 16px;
 }
 
+
+
 .portfolio p,
 .aboutme p {
   color: #344563;
@@ -248,19 +249,27 @@
   border-radius: 10px;
 }
 
-.title5 {
-  display: flex;
-  text-decoration: none;
+
+.project-button button {
   width: 124px;
-  height: 24px;
-  color: #396df2;
-  font-size: 17px;
-  text-align: center;
-  letter-spacing: 0.03em;
+  height: 48px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  padding: 12px;
+  gap: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
   font-weight: 500;
+  font-size: 17px;
   line-height: 24px;
+  color: #396df2;
+  cursor: pointer;
 }
 
+.project-button button:hover {
+  background-color: #6070ff;
+  color: white;
+}
 .font6 {
   width: 295px;
   color: black;
@@ -277,6 +286,7 @@
   background-color: #fff;
 }
 
+
 .aboutme button {
   display: flex;
   width: 140px;
@@ -291,6 +301,7 @@
   margin-left: 24px;
 }
 
+
 .portfolio button a:hover,
 .aboutme button a:hover {
   padding: 10px 15px;
@@ -303,7 +314,6 @@
   display: flex;
   flex-direction: column;
   background-color: white;
-  border: 1px solid black;
   background-size: cover;
   background-repeat: no-repeat;
   width: 375px;
@@ -312,6 +322,31 @@
   border-top-right-radius: 50px;
 }
 
+.about-resume .btn-resume {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 162px;
+  height: 48px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  cursor: pointer;
+}
+
+.about-resume .btn-resume:hover {
+  background-color: #7f8cff;
+  color: white;
+}
 .font8 {
   width: 295px;
   color: #172b4d;
@@ -414,13 +449,23 @@
   border-top-left-radius: 50px;
   display: flex;
   justify-content: center;
-  background-color: #609aff;
+  background-color: #6070FF;
   background-image: url("images/header-shapes mobile.png");
   background-size: contain;
   background-repeat: no-repeat;
   margin-top: 90px;
+  padding-bottom: 45px;
+  position: relative;
 }
-
+.form-close{
+  position: absolute;
+  bottom: 8px;
+  background: #0D151E;
+  border: 1px solid #0D151E;
+  border-radius: 10px;
+  width: 134px;
+  height: 5px;
+}
 .contact_form {
   width: 90%;
   margin: auto;
@@ -505,23 +550,33 @@ label {
   line-height: 28px;
 }
 
-.btn {
-  width: 140px;
+.btn-submit{
+  width: 142px;
   height: 48px;
-  padding: 12px 16px;
+  background: #FFFFFF;
   border-radius: 8px;
-  color: #6070ff;
-  background-color: #fff;
-  margin-bottom: 45px;
-  padding-left: 24px;
-  padding-right: 209px;
-}
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #6070FF;
+  border: none;
+  outline: 1px solid #6070FF;
+  cursor: pointer;
 
-.btn:hover {
-  padding: 12px 16px 12px 16px;
-  border: 1px solid #fff;
-  color: #fff;
-  background-color: #6070ff;
+}
+.btn-submit:hover{
+  background-color: #6070FF;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+}
+.btn-submit:focus{
+  background: #FFFFFF;
+  color: #6070FF;
+  outline: 1px solid #6070FF;
 }
 
 @media all and (max-width: 768px) {
