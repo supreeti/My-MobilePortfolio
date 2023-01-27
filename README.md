@@ -1,10 +1,6 @@
 # My-Mobileportfolio
 <div align="center">
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
   <h3><b>Supreeti Portfolio Mobile Version</b></h3>
-
 </div>
 My second microverse project with contact form in my portfolio mobile view.
 <!-- TABLE OF CONTENTS -->
