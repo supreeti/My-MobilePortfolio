@@ -247,6 +247,27 @@
   border-radius: 10px;
 }
 
+.portfolio button {
+  padding: 10px 10px;
+  border: 1px solid #6070ff;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.aboutme button {
+  display: flex;
+  width: 140px;
+  height: 40px;
+  flex-direction: column;
+  align-items: center;
+  padding: 4px;
+  border: 1px solid #6070ff;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-top: 24px;
+  margin-left: 24px;
+}
+
 .project-button button {
   width: 124px;
   height: 48px;
@@ -275,27 +296,6 @@
   font-size: 15px;
   align-items: left;
   font-weight: 500;
-}
-
-.portfolio button {
-  padding: 10px 10px;
-  border: 1px solid #6070ff;
-  border-radius: 10px;
-  background-color: #fff;
-}
-
-.aboutme button {
-  display: flex;
-  width: 140px;
-  height: 40px;
-  flex-direction: column;
-  align-items: center;
-  padding: 4px;
-  border: 1px solid #6070ff;
-  border-radius: 10px;
-  background-color: #fff;
-  margin-top: 24px;
-  margin-left: 24px;
 }
 
 .portfolio button a:hover,
@@ -553,10 +553,8 @@ label {
 .btn-submit {
   width: 142px;
   height: 48px;
-  background: #ffffff;
+  background: #fff;
   border-radius: 8px;
-  font-family: "Poppins";
-  font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
@@ -567,13 +565,15 @@ label {
   outline: 1px solid #6070ff;
   cursor: pointer;
 }
+
 .btn-submit:hover {
   background-color: #6070ff;
-  color: #ffffff;
-  border: 1px solid #ffffff;
+  color: #fff;
+  border: 1px solid #fff;
 }
+
 .btn-submit:focus {
-  background: #ffffff;
+  background: #fff;
   color: #6070ff;
   outline: 1px solid #6070ff;
 }
